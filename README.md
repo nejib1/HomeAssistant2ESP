@@ -1,6 +1,7 @@
 <h1 align="center">HomeAssistant2ESP</h1>
 
-Ce mini-projet vous permet de récupérer facilement des données depuis Home Assistant et de les afficher en temps réel sur un écran OLED Shield. Plus besoin de consulter votre téléphone ou de vous connecter à Home Assistant à chaque fois que vous avez besoin de ces informations !
+Ce mini-projet vous permet de récupérer des données depuis Home Assistant, via le protocole MQTT et de les afficher en temps réel sur un écran OLED Shield. Plus besoin de consulter votre téléphone ou de vous connecter à Home Assistant à chaque fois que vous avez besoin de ces informations !
+
 
 ## Aperçu
 
@@ -25,5 +26,11 @@ Ce projet n'est pas affilié à aucun fournisseur ou site, vous pouvez donc ache
 Si vous n'avez jamais compilé de code Arduino auparavant, nous vous recommandons de suivre les tutoriels essentiels disponibles ici : [Comment installer la carte ESP8266 dans l'IDE Arduino](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/).
 
 Si vous rencontrez des problèmes, n'hésitez pas à créer un ticket dans la section "Issues" (Problèmes). Je suis là pour vous aider !
+
+
+## Conclusion :
+Pour conclure, les étapes consistent à : 
+1) Publier des messages dans Home Assistant via MQTT
+2) Ecouter/Capturer les information via ESP8266, et les afficher dans un écran OLED Shield.
 
 ---
