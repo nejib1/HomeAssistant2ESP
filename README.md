@@ -23,9 +23,9 @@ Ce projet n'est pas affilié à aucun fournisseur ou site, vous pouvez donc ache
 
 2. Renseignez les données de configuration dans le fichier HomeAssistant2ESP8266.ino et compilez-le avec l'Arduino IDE en connectant l'ESP8266 à votre ordinateur (uniquement lors de l'installation initiale).
 
-Si vous n'avez jamais compilé de code Arduino auparavant, nous vous recommandons de suivre les tutoriels essentiels disponibles ici : [Comment installer la carte ESP8266 dans l'IDE Arduino](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/).
+Si vous n'avez jamais compilé de code Arduino auparavant, je vous recommande de suivre les tutoriels essentiels disponibles ici : [Comment installer la carte ESP8266 dans l'IDE Arduino](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/).
 
-Si vous rencontrez des problèmes, n'hésitez pas à créer un ticket dans la section "Issues" (Problèmes). Je suis là pour vous aider !
+Si vous rencontrez des problèmes, n'hésitez pas à créer un ticket dans la section "Issues" (Problèmes). Je répondrai, promis !
 
 
 ## Conclusion :
