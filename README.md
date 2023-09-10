@@ -15,7 +15,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 - [ESP8266 (de préférence au format USB C)](https://fr.aliexpress.com/item/32651747570.html)
 - [Mini écran OLED Shield](https://fr.aliexpress.com/item/1005005334479829.html)
 
-Ce projet n'est pas affilié à aucun fournisseur ou site, vous pouvez donc acheter ces composants où vous le souhaitez.
+Ce projet n'est affilié à aucun fournisseur ou site, vous pouvez donc acheter ces composants où vous le souhaitez.
 
 ## Installation
 
