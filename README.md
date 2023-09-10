@@ -30,5 +30,3 @@ Si vous n'avez jamais compilé de code Arduino auparavant, nous vous recommandon
 Si vous rencontrez des problèmes, n'hésitez pas à créer un ticket dans la section "Issues" (Problèmes). Je suis là pour vous aider !
 
 ---
-
-*N'hésitez pas à personnaliser davantage votre README GitHub en ajoutant des captures d'écran, des schémas de câblage ou d'autres informations pertinentes pour les utilisateurs. Cela rendra votre projet encore plus attractif.*
