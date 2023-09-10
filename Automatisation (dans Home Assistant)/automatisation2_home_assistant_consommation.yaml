@@ -12,5 +12,5 @@ action:
       retain: false
       topic: afficheur_esp8266/consommation_live
       payload_template: "{{ states('sensor.house_consumption_power')| float | round(0) }}w"
-    alias: Publier un message MQTT qui affiche la puissance des panneaux en live
+    alias: Publier un message MQTT qui affiche la consommation en live
 mode: single
