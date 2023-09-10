@@ -7,7 +7,7 @@ Ce mini-projet vous permet de récupérer des données depuis Home Assistant, vi
 
 ![Demo](https://github.com/nejib1/HomeAssistant2ESP/assets/10485460/52300a29-c2a6-447e-9a5b-595aa5d7d070)
 
-Le coût du matériel nécessaire est  à environ 3 à 4€ sur AliExpress (Je ne vends rien, et je ne fais aucune affiliation à qui que ce soit) 
+Le coût du matériel nécessaire est d'environ 4€ sur AliExpress (Je ne vends rien, et je ne fais la promotion d'aucun produit ou site).
 
 ## Matériel Requis
 
