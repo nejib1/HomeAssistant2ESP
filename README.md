@@ -1,6 +1,8 @@
 # HomeAssistant2ESP
 Ce mini projet consiste à récupérer des données depuis Home Assistant via ESP8266 et les afficher dans un écran OLED Shield.
+
 Le but est d'avoir ces données sous les yeux sans besoin de consulter le téléphone portable our Home Asistant à chaque fois...
+
 Le coût du matériel nécessaire est compris entre 3 et 4€ sur Aliexpress.
 
 ![Demo](https://github.com/nejib1/HomeAssistant2ESP/assets/10485460/52300a29-c2a6-447e-9a5b-595aa5d7d070)
