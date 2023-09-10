@@ -1,0 +1,18 @@
+alias: >-
+  Publier un message MQTT : % de chargement de la batterie  vers l'afficheur
+  ESP8266
+description: ""
+trigger:
+  - platform: state
+    entity_id:
+      - sensor.inverter_battery_soc
+condition: []
+action:
+  - service: mqtt.publish
+    data:
+      qos: 0
+      retain: false
+      topic: afficheur_esp8266/percent_battery
+      payload_template: "{{ states('sensor.inverter_battery_soc') }}%"
+    alias: Publier un message MQTT qui affiche le % de la charge de la batterie
+mode: single

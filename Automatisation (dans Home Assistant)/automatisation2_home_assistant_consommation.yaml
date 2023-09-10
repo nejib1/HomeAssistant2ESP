@@ -1,0 +1,16 @@
+alias: "Publier un message MQTT : Consommation dans l'afficheur ESP8266"
+description: ""
+trigger:
+  - platform: state
+    entity_id:
+      - sensor.house_consumption_power
+condition: []
+action:
+  - service: mqtt.publish
+    data:
+      qos: 0
+      retain: false
+      topic: afficheur_esp8266/consommation_live
+      payload_template: "{{ states('sensor.house_consumption_power')| float | round(0) }}w"
+    alias: Publier un message MQTT qui affiche la puissance des panneaux en live
+mode: single

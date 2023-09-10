@@ -1,0 +1,20 @@
+alias: >-
+  Publier un message MQTT :  Puissance Production Panneaux Solaires en live vers
+  l'afficheur ESP8266
+description: ""
+trigger:
+  - platform: state
+    entity_id:
+      - sensor.shellyem_a4e57cba897c_channel_2_power
+condition: []
+action:
+  - service: mqtt.publish
+    data:
+      qos: 0
+      retain: false
+      topic: afficheur_esp8266/pv_production_live
+      payload_template: >-
+        {{ states('sensor.shellyem_a4e57cba897c_channel_2_power')| float |
+        round(0) }}w
+    alias: Publier un message MQTT qui affiche la puissance des panneaux en live
+mode: single
